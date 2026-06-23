@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: #0a0f2c;
+            color: white;
+        }
+        
+        section {
+            padding: 70px 0;
+        }
+        
+        .card-custom {
+            background: #131a42;
+            border: 1px solid #2d3777;
+            border-radius: 10px;
+        }
+        
+        .card-custom:hover {
+            border-color: #8b5cf6;
+        }
+        
+        .hero {
+            padding-top: 120px;
+            padding-bottom: 80px;
+        }
+        
+        .hero img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        
+        .skill-box {
+            background: #131a42;
+            border: 1px solid #2d3777;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        
+        .skill-box:hover {
+            background: #1c2560;
+        }
+        
+        footer {
+            background: #131a42;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">My Portfolio</a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-6">
+                    <h1>Hello, I'm Chhaty</h1>
+
+                    <p>
+                        I am a web developer who creates modern websites using HTML, CSS, Bootstrap and JavaScript.
+                    </p>
+
+                    <a href="#" class="btn btn-primary">
+View Projects
+</a>
+                </div>
+
+                <div class="col-md-6" style="text-align: center;">
+                    <img src="1IMG_0055.jpg" alt="" class="w-50">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About -->
+    <section>
+        <div class="container">
+
+            <h2 class="text-center mb-5">About Me</h2>
+
+            <div class="card-custom p-4">
+                <h2>Full Name: HOEURN CHHATY</h2>
+                <h2>Gender: Male</h2>
+                <h2>DoB: 19 January 2000</h2>
+                <h2>Nation: Khmer</h2>
+                <p>
+                    I am a passionate web developer with experience in creating responsive websites and user-friendly interfaces.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+
+            <h2 class="text-center mb-5">My Skills</h2>
+
+            <div class="row g-3">
+
+                <div class="col-md-3">
+                    <div class="skill-box">HTML </div>
+                    <img class="w-100" style="height: 300px; object-fit: cover;" src="https://static.vecteezy.com/system/resources/thumbnails/066/386/005/small/the-html5-logo-with-the-number-5-in-the-center-free-png.png" alt="">
+
+                </div>
+
+                <div class="col-md-3">
+                    <div class="skill-box">CSS</div>
+                    <img class="w-100" style="height: 300px; object-fit: cover;" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/css-icon.png" alt="">
+                </div>
+
+                <div class="col-md-3">
+                    <div class="skill-box">Bootstrap</div>
+                    <img class="w-100" style="height: 300px; object-fit: cover;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/960px-Bootstrap_logo.svg.png?_=20210507000024" alt="">
+                </div>
+
+                <div class="col-md-3">
+                    <div class="skill-box">JavaScript</div>
+                    <img class="w-100" style="height: 300px; object-fit: cover;" src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+
+            <h2 class="text-center mb-5">Projects</h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="card-custom p-3">
+                        <img src="1.jpg" class="img-fluid rounded mb-3">
+                        <h5>Project 1</h5>
+                        <p>Simple portfolio website.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card-custom p-3">
+                        <img src="2.jpg" class="img-fluid rounded mb-3">
+                        <h5>Project 2</h5>
+                        <p>Business landing page.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card-custom p-3">
+                        <img src="3.jpg" class="img-fluid rounded mb-3">
+                        <h5>Project 3</h5>
+                        <p>Online shop design.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section>
+        <div class="container">
+
+            <div class="card-custom p-5 text-center">
+
+                <h2>Contact Me</h2>
+
+                <p>
+                    Email: chhatyhoeurn@gmail.com
+                </p>
+
+                <a href="#" class="btn btn-primary">
+Send Message
+</a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p class="mb-0">
+            © 2026 My Portfolio
+        </p>
+    </footer>
+
+</body>
+
+</html>
